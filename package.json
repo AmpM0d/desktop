@@ -60,8 +60,8 @@
   },
   "main": "./src-main/entrypoint.js",
   "build": {
-    "appId": "org.turbowarp.desktop",
-    "productName": "TurboWarp",
+    "appId": "org.ampmod.desktop",
+    "productName": "AmpMod",
     "files": [
       "node_modules/**/*",
       "src-main/**/*",
@@ -97,11 +97,11 @@
     },
     "appx": {
       "artifactName": "${productName} MS Store ${version} ${arch}.${ext}",
-      "applicationId": "TurboWarp",
-      "displayName": "TurboWarp",
-      "identityName": "45747ThomasWeber.TurboWarpDesktop",
+      "applicationId": "AmpMod",
+      "displayName": "AmpMod",
+      "identityName": "45747AmpElectrecuted.AmpModDesktop",
       "publisher": "CN=18FA7D4F-01BF-49F2-BF56-782DCEA49C69",
-      "publisherDisplayName": "Thomas Weber",
+      "publisherDisplayName": "AmpElectrecuted",
       "backgroundColor": "#4c97ff",
       "showNameOnTiles": true,
       "languages": [
@@ -192,6 +192,13 @@
       "license": null
     },
     "fileAssociations": [
+      {
+        "ext": "amp",
+        "name": "AmpMod Project",
+        "description": "AmpMod Project",
+        "role": "Editor",
+        "mimeType": "application/x.scratch.sb3"
+      },
       {
         "ext": "sb3",
         "name": "Scratch 3 Project",
