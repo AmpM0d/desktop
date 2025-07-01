@@ -16,6 +16,7 @@
     "electron:package:dir": "electron-builder --dir"
   },
   "dependencies": {
+    "preact": "^10.26.9",
     "semver": "^7.7.1"
   },
   "devDependencies": {
@@ -23,7 +24,7 @@
     "@babel/preset-env": "^7.12.16",
     "@babel/preset-react": "^7.13.13",
     "@electron/fuses": "^1.7.0",
-    "@turbowarp/extensions": "github:TurboWarp/extensions#master",
+    "@turbowarp/extensions": "git+https://codeberg.org/ampmod/extensions#master",
     "adm-zip": "^0.5.16",
     "async-limiter": "^2.0.0",
     "autoprefixer": "^9.8.8",
@@ -38,7 +39,7 @@
     "postcss-import": "^14.0.0",
     "postcss-loader": "^4.2.0",
     "postcss-simple-vars": "^6.0.3",
-    "scratch-gui": "git+https://codeberg.org/AmpMod/scratch-gui.git#develop",
+    "scratch-gui": "git+https://codeberg.org/ampmod/scratch-gui.git#develop",
     "style-loader": "^0.23.0",
     "url-loader": "^4.1.1",
     "webpack": "4.47.0",
@@ -193,7 +194,7 @@
     },
     "fileAssociations": [
       {
-        "ext": "amp",
+        "ext": "apz",
         "name": "AmpMod Project",
         "description": "AmpMod Project",
         "role": "Editor",
